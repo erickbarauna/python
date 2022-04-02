@@ -1,0 +1,6 @@
+d = float(input('Dias alugados: '))
+d1 = float(input('Taxa cobrada por dia: '))
+p = float(input('Km percorridos? '))
+p1 = float(input('Taxa cobrada por Km: '))
+z = (d * d1) + (p * p1)
+print('Tudo isso custará R${}!'.format(z))
